@@ -1,0 +1,64 @@
+body {
+text-align: center;
+background-color: black;
+}
+header {
+  background:rgb(50,230,50);
+  height:50px;
+  text-shadow:1px 1px white;
+}
+.winnerOne {
+  background:black;
+  float:left;
+  width:25%;
+  height:525px;
+}
+.tictactoe {
+  display:inline-block;
+  background:rgb(50,230,50);
+  height:525px;
+  width:50%;
+  text-align: center;
+}
+.container {
+position:relative;
+right:19px;
+}
+.squares {
+  display:inline-block;
+  height:160px;
+  width:160px;
+  background-color:white;
+  border-radius:10px;
+}
+.winnerTwo {
+  vertical-align: top;
+  background:black;
+  float:right;
+  width:25%;
+  height:525px;
+}
+footer {
+  background:black;
+  clear:both;
+  height:50px;
+}
+.clearing {
+  height:40px;
+  width:40%;
+  margin:5px 0 auto;
+  font-weight:bold;
+  color:black;
+  text-shadow:1px 1px white;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color:rgb(50,230,50);
+  border-color: green;
+}
+.Xs {
+  background-color: red;
+  /*background:url('');*/
+}
+.Os {
+  background-color: yellow;
+}
