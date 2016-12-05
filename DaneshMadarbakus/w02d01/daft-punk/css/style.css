@@ -1,0 +1,48 @@
+body {
+  background-color:#000;
+  text-align:center;
+}
+h1 {
+  color:red;
+  font-family:sans-serif;
+  font-size: 50px;
+  padding:0;
+}
+ul {
+  margin:0 auto;
+  padding:0;
+  width:540px;
+  height:500px;
+}
+li {
+  line-height: 120px;
+  list-style-type:none;
+  width:120px;
+  height:120px;
+  display:inline-block;
+  border:1px solid #fff;
+  margin:2px 0;
+  padding:2px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+li:hover{
+  color:white;
+  background-image: url('../images/daftpunk1.jpg');
+  background-position: center;
+  background-size: cover;
+
+}
+.row1 {
+  color:red;
+}
+.row2 {
+  color:green;
+}
+.row3 {
+  color:yellow;
+}
+.row4 {
+  color:red;
+}
