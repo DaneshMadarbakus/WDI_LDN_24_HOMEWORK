@@ -1,0 +1,19 @@
+Rock, Paper, Scissors
+=====
+
+## Instructions
+
+Your task is to make the classic Rock/Paper/Scissors game against the computer!
+
+Once the functionality is working, apply some styling for that individual touch.
+
+## Pseudo Code
+
+- Create some html for my buttons so that the user can choose what to play
+- Going to need a way to get the value of what the user played e.g user played paper...
+- Randomise the computer play to give me a value (math.rand?)
+- Depending on the two plays, calculate the winner and increment the winners score
+
+you played paper, bot played rock
+
+optional - clear button
