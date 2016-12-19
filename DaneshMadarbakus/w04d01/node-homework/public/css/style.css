@@ -1,0 +1,39 @@
+body{
+  background:#e60000;
+}
+.navbar{
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  background:#FFFFFF;
+  margin:0;
+}
+.hbk {
+  text-align:center;
+}
+.jumbotron{
+  text-align: center;
+  font-family: 'Baloo Thambi', cursive;
+  color:#FFFFFF;
+  background-color:#e60000;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.jumbotron > h1 {
+  font-size:250px;
+  padding-top:0;
+  padding-bottom: 0;
+}
+.jumbotron > h2 {
+  font-size:50px;
+}
+.about{
+  text-align: center;
+  color:white;
+  font-family: 'Baloo Thambi', cursive;
+}
+.hbk{
+  position:absolute;
+  height:100px;
+  width:200px;
+  
+}
