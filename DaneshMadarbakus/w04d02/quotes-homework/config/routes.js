@@ -13,7 +13,6 @@ router.route('/quotes/new')
 .get(quoteController.new);
 .post(quoteController.create);
 
-router.route('/quotes/canyoudoit')
-.get(quoteController.canYouDoIt);
+
 
 module.exports = router;

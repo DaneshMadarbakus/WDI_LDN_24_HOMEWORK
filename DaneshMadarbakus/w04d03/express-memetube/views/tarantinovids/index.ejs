@@ -1,0 +1,10 @@
+<h1>Index page</h1>
+<ul class="list-unstyled">
+  <% tarantinovids.forEach(tarantinovid => { %>
+    <li>
+      <ul class="list-unstyled">
+        <li><a href="/tarantinovids/<%= tarantinovid._id %>"><h4><%= tarantinovid.name %></h4></a></li>
+      </ul>
+    </li>
+  <% }) %>
+</ul>

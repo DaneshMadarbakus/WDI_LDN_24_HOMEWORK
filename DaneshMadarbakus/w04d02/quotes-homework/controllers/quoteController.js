@@ -8,9 +8,6 @@ function quotesNew(req, res){
   res.render('pages/new');
 }
 
-function quotesCanYouDoIt(req, res){
-  res.render('pages/canyoudoit');
-}
 
 function newQuote(req, res){
   let quote = req.body.quote;
@@ -22,6 +19,5 @@ function newQuote(req, res){
 module.exports = {
   index: quotesIndex,
   new: quotesNew,
-  canYouDoIt: quotesCanYouDoIt
-  newQ: newQuote
+  create: newQuote
 };
