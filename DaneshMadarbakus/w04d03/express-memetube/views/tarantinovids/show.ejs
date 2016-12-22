@@ -1,1 +1,12 @@
 <h1>Show page</h1>
+<h1><%= tarantinovid.name %></h1>
+<h6><%= tarantinovid.genre %></h6>
+<h4>in <%= tarantinovid.id %></h4>
+<p><%= tarantinovid.description %></p>
+<a href="/tarantinovids/<%= tarantinovid._id %>/edit" class="btn btn-primary">Edit</a>
+<form action="/tarantinovids/<%= restaurant._id %>" method="post">
+  <input type="hidden" value="delete" name="_method">
+  <input type="submit" class="btn btn-danger" value="Delete">
+</form>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XnxSLwLFfNY" frameborder="0" allowfullscreen></iframe>

@@ -1,1 +1,20 @@
 <h1>New page</h1>
+<form action="/tarantinovids" method="post">
+  <div class="form-group">
+    <label for="tarantinovid_name">Name</label>
+    <input type="text" class="form-control" id="tarantinovid_name" placeholder="Name" name="tarantinovid[name]">
+  </div>
+  <div class="form-group">
+    <label for="tarantinovid_description">Description</label>
+    <textarea class="form-control" id="tarantinovid_description" placeholder="Description" name="tarantinovid[description]"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="tarantinovid_id">Video link ID</label>
+    <input type="text" class="form-control" id="tarantinovid_id" placeholder="Video id" name="tarantinovid[id]">
+  </div>
+  <div class="form-group">
+    <label for="tarantinovid_genre">Genre</label>
+    <input type="text" class="form-control" id="tarantinovid_genre" placeholder="Genre" name="tarantinovid[id]">
+  </div>
+  <input type="submit" value="Submit" class="btn btn-primary">
+</form>
