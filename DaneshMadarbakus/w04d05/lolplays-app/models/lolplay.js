@@ -8,4 +8,4 @@ const lolplaySchema = new mongoose.Schema({
   timestamps: true
 });
 
-module.exports = mongoose.model('LOLPlay', lolplaySchema);
+module.exports = mongoose.model('Lolplay', lolplaySchema);

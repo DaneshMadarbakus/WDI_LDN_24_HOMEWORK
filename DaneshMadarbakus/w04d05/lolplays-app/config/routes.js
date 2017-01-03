@@ -11,6 +11,11 @@ router.route('/lolplays')
 router.route('/lolplays/new')
   .get(lolplays.new);
 router.route('/lolplays/:id')
-  .get(lolplays.show);
+  .get(lolplays.show)
+  .put(lolplays.update)
+  .delete(lolplays.delete);
+router.route('/lolplays/:id/edit')
+  .get(lolplays.edit);
+
 
 module.exports = router;
