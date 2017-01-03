@@ -1,0 +1,22 @@
+<% if (error) { %>
+  <div class="alert alert-danger text-center" role="alert"><%= error %></div>
+  <% } %>
+
+  <section class="container">
+    <h1>Add LOL Play</h1>
+    <form action="/lolplays" method="post">
+      <div class="form-group">
+        <label for="lolplay_title">Title</label>
+        <input type="text" class="form-control" id="lolplay_title" name="lolplay[title]" placeholder="Title">
+      </div>
+      <div class="form-group">
+        <label for="lolplay_id">Youtube ID</label>
+        <input type="text" class="form-control" id="lolplay_id" placeholder="Youtube id" name="lolplay[id]">
+      </div>
+      <div class="form-group">
+        <label for="lolplay_description">Description</label>
+        <textarea class="form-control" id="lolplay_description" name="lolplay[description]" placeholder="Description"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>

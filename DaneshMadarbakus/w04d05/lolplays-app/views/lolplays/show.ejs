@@ -1,0 +1,17 @@
+<% if (error) { %>
+  <div class="alert alert-danger text-center" role="alert"><%= error %></div>
+<% } %>
+<section class="container">
+  <h1><%= lolplay.title %></h1>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<%= lolplay.videoId %>?modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+  <p><%= lolplay.description %></p>
+  <ul class="list-inline">
+    <li><a class="btn btn-primary" href="/movies/<%= lolplay._id %>/edit">Edit</a></li>
+    <li>
+      <form action="/lolplays/<%= lolplay._id %>" method="post">
+        <input type="hidden" name="_method" value="delete">
+        <button class="btn btn-danger">Delete</button>
+      </form>
+    </li>
+  </ul>
+</section>
