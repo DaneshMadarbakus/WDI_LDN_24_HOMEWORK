@@ -1,0 +1,5 @@
+<h1>Show</h1>
+<h3>{{ usersShow.data.name }}</h3>
+<img src="{{ usersShow.data.image }}">
+<li ui-sref="usersEdit({id: usersShow.data._id})">Edit</li>
+<li ng-click="usersShow.delete()">Delete</li>
