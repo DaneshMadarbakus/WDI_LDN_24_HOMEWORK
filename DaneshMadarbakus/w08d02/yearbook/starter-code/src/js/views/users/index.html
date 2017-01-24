@@ -1,0 +1,4 @@
+<h1>Users</h1>
+<ul>
+  <li ng-repeat="user in users.users track by $index" ui-sref="usersShow({id: user._id})">{{ user.name }}<img src="{{ user.image }}"></li>
+</ul>
