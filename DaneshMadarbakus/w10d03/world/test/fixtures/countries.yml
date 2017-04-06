@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  image: MyString
+  size: 1
+  population: 1
+  language: MyString
+  currency: 9.99
+  continent: one
+
+two:
+  name: MyString
+  image: MyString
+  size: 1
+  population: 1
+  language: MyString
+  currency: 9.99
+  continent: two
